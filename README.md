@@ -21,4 +21,5 @@ and btop is available.
 
 On reboot, 2 generations are available. they are both in /boot
 
-BUT gen 2 (default) can't boot, as /dev/vda2 does not mount…
+BUT gen 2 (default) can't boot, as /dev/vda2 does not mount… So select gen 1,
+then ssh root, and `/nix/var/nix/profiles/system-2-link/activate`
